@@ -1,0 +1,135 @@
+<div class="row">
+    <div class="columna-izq col l3 push-l1  ">
+        <div class="Sticky " style="position:sticky; top: 100px;">
+            <div class="Cover col l6 push-l3  ">
+                <img src="../../../assets/Covers/pjato4.jpg" id="cover">
+            </div>
+            <div>
+                <a class="btn col l5 push-l2 " id="botones">
+                    Agregar a la Lista</a>
+            </div>
+            <div>
+                <a class="btn col l5 push-l2 " id="botones">
+                    Comprar</a>
+            </div>
+            <div class="rate col l5 push-l3  ">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+        </div>
+ 
+    </div>
+    <div class="columna-der col l6 push-l1   ">
+        <div class="info-Libro col l12   ">
+            <div class="Titulo-Libro col l10  ">
+                <h3 class="titulop1 col l7">Percy Jackson y los Dioses del Olimpo#4</h3>
+                <h1 class="titulop2 col l8">La Batalla del Laberinto</h1>
+            </div>
+            <div class="descripcion-texto col l10 ">
+                <p class="formato-texto" *ngFor="let libro of libroService.libros">
+                    <!-- A punto de comenzar primero de secundaria, Percy Jackson no espera emociones fuertes, sino más bien un aburrimiento soporífero. Pero cuando en la nueva 
+                    escuela se presenta una vieja amiga, seguida de un par de animadoras diabólicas, los acontecimientos se precipitan y todo empieza a ir de mal en peor. 
+                    Cronos, el malvado señor de los titanes, amenaza con destruir el Campamento Mestizo, donde se refugian los jóvenes semidioses. Para evitarlo, 
+                    Percy y sus amigos deben emprender una arriesgada búsqueda a través del laberinto, un mundo subterráneo plagado de trampas temibles y criaturas perversas, 
+                    concebido para acabar con quienes se atrevan a profanarlo. -->
+                    {{libro.descricpion}}
+                    </p>
+            </div>
+            <div class="info-adicional col l10   ">
+                <p class="generos">
+                    Generos: Fantasia, Mitologia, Ficción, Mitología Griega, Aventura
+                </p>
+                <p class="paginas">
+                    361 páginas
+                </p>
+                <p class="publicacion">
+                    Publicado el 6 de Marzo, 2008
+                </p>
+            </div>
+
+            <div class="info-autor col l10 ">
+                <h3 class="sobreautor">Sobre el Autor</h3>
+                <div class="foto-autor col l2 ">
+                    <img src="../../../assets/Resources/dios.jpg" id="ppautor">
+                </div>
+               <div class="nombre-libros col l10  ">
+                <p>Rick Riordan</p>
+                <p>485 libros</p>
+               </div>
+               <div class="bio col l12 ">
+                    <p>Rick Riordan is the #1 New York Times bestselling author 
+                        of many books, including the Percy Jackson series. 
+                        You can follow him on Twitter and via his official 
+                        website.</p>
+               </div>
+            </div>
+            
+            <div class="reseñas col l12  ">
+
+                <h3 class="reseña">Reseñas Populares</h3>
+             
+                <div class="reseña_1 col l12">
+                    <hr>
+                    <div class="foto-reseña col l2 ">
+                        <img src="../../../assets/Resources/pp.jpg" id="pp">
+                        <p>etor</p>
+                        <p>reseñas</p>
+                        <p>seguidores</p>
+                    </div>
+                    <div class="info-reseña col l9 push-l1   ">
+                        <p>rating</p>
+                        <p>Yo ya me hubiera ido con la Rachel la verdad.</p>
+                        <div class="iconos col l12 ">
+                            <div class="like col l3">  
+                                <a href="#"><i class="material-icons left">thumb_up</i>Me gusta</a>
+                            </div>
+                            <div class="comentar col l4">
+                                <a href="#"><i class="material-icons left">chat_bubble_outline</i>Comentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reseña_2 col l12">
+                    <hr>
+                    <div class="foto-reseña col l2 ">
+                        <img src="../../../assets/Resources/pp.jpg" id="pp">
+                        <p>etor</p>
+                        <p>reseñas</p>
+                        <p>seguidores</p>
+                    </div>
+                   <div class="info-reseña col l9 push-l1   ">
+                        <p>rating</p>
+                        <p>Yo ya me hubiera ido con la Rachel la verdad.</p>
+                        <div class="iconos col l12 ">
+                            <div class="like col l3">  
+                                <a href="#"><i class="material-icons left">thumb_up</i>Me gusta</a>
+                            </div>
+                            <div class="comentar col l4">
+                                <a href="#"><i class="material-icons left">chat_bubble_outline</i>Comentar</a>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+    
+    
+           
+
+            
+
+            </div>
+
+            
+          
+        </div>
+    </div>
+
+</div>

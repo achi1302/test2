@@ -1,0 +1,19 @@
+.page-footer{
+    background-color:#eaeaea;
+
+}
+
+.iconf {
+    position:relative;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+    top: 0px;
+    left: -10px;
+}
+
+.test{
+    border-width: 1px;
+    border-style: solid;
+    border-color:blue;
+}

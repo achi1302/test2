@@ -1,0 +1,186 @@
+/* 
+.row{
+    width: 297px;
+} */
+#cover{
+    
+    width: 208px;
+    height: 310px;  
+    border: 2px solid #000000;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Sticky {
+    z-index: 1;
+}
+
+.columna-izq  {
+    height: 1200px;
+    margin-top: 65px;
+   
+}
+
+.Cover {
+  
+    height: 310px;
+    width: 208px;
+    
+    
+  
+}
+#cover{
+    position:relative;
+    left: -20px
+}
+
+#botones{
+    background: #3F5941;
+    border-radius: 15px;
+    width: 288px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+
+.rate {
+    position: relative;
+
+    height: 45px;
+    padding: 10px;
+    margin-top: 10px;
+    left: 100px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:0px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#000;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
+
+.columna-der{
+    margin-top: 65px;
+    height: 1200px
+}
+
+.info-Libro {
+    height: 600px;
+    margin-top: 20px;
+}
+
+.Titulo-Libro{
+    height: 100px;
+    margin-top:0px
+}
+
+
+
+.titulop1 {
+    margin-top: 0px;
+    height: 40px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.titulop2 {
+    margin-top: -18px;
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+}
+
+.formato-texto {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.info-adicional {
+    height: 120px;
+
+}
+
+.sobreautor{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#ppautor{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+hr{
+    color: #868C72;
+    margin-left: -10px;
+  
+}
+
+
+.nombre-libros {
+    height: 83px;
+    margin-top: -15px;
+
+}
+
+#pp{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+.reseña{
+    
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.info-reseña a {
+    height: 83px;
+    margin-top: 10px;
+    color: #000;
+
+}
+
+.material-icons {
+    color: #000;
+    font-size: 25px
+}
+
+
+
+
+.test{
+    border-width: 1px;
+    border-style: solid;
+    border-color:blue;
+}
