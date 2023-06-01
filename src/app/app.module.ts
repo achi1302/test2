@@ -12,6 +12,10 @@ import { HeaderComponent } from './Components/header/header.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
 import { CatalogoLibrosComponent } from './Components/catalogo-libros/catalogo-libros.component';
 import { PjtbotlPageComponent } from './Components/pjtbotl-page/pjtbotl-page.component';
+import { PjtltComponent } from './Components/pjtlt/pjtlt.component';
+import { PjttcComponent } from './Components/pjttc/pjttc.component';
+import { PjtsomComponent } from './Components/pjtsom/pjtsom.component';
+import { PjtloComponent } from './Components/pjtlo/pjtlo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { PjtbotlPageComponent } from './Components/pjtbotl-page/pjtbotl-page.com
     HeaderComponent,
     HomePageComponent,
     CatalogoLibrosComponent,
-    PjtbotlPageComponent
+    PjtbotlPageComponent,
+    PjtltComponent,
+    PjttcComponent,
+    PjtsomComponent,
+    PjtloComponent
   ],
   imports: [
     BrowserModule,

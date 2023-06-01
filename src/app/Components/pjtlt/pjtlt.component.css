@@ -1,6 +1,7 @@
 .row{
-    background-color: #eaeaea;
- }
+   background-color: #eaeaea;
+}
+
 #cover{
     
     width: 208px;
@@ -146,6 +147,8 @@ font-size: 40px;
     font-size: 20px;
     font-weight: 700;
 }
+
+
 
 #ppautor{
     width: 75px;

@@ -2,7 +2,7 @@
     <div class="columna-izq col l3 push-l1  ">
         <div class="Sticky " style="position:sticky; top: 100px;">
             <div class="Cover col l6 push-l3  ">
-                <img src="../../../assets/Covers/pjato4.jpg" id="cover">
+                <img src="../../../assets/Covers/pjato1.jpg" id="cover">
             </div>
             <div>
                 <a class="btn col l5 push-l2 " id="botones">
@@ -27,44 +27,47 @@
         </div>
  
     </div>
+
     <div class="columna-der col l6 push-l1   ">
         <div class="info-Libro col l12   ">
             <div class="Titulo-Libro col l10  ">
                 <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                    <ng-container *ngIf="i === 3">               
+                    <ng-container *ngIf="i === 0">               
                         <h3 class="titulop1 col l7" > {{libro.bundle}}</h3>
                         <h1 class="titulop2 col l8">{{libro.name}}</h1>
                         </ng-container>
                 </ng-container>
-                
             </div>
+
+            
             <div class="descripcion-texto col l10 ">
                 <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                    <ng-container *ngIf="i === 3">               
+                    <ng-container *ngIf="i === 0">               
                         <p class="formato-texto">
                             {{libro.descripcion}}
                             </p>
                         </ng-container>
                 </ng-container>
-          
             </div>
+
+      
             <div class="info-adicional col l10   ">
                 <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                    <ng-container *ngIf="i === 3">               
+                    <ng-container *ngIf="i === 0">               
                         <p class="generos">
                             Generos: {{libro.genres}}
                         </p>
                     </ng-container>
                 </ng-container>
                 <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                    <ng-container *ngIf="i === 3">               
+                    <ng-container *ngIf="i === 0">               
                         <p class="paginas">
                             {{libro.paginas}}
                         </p>
                         </ng-container>
                 </ng-container>
                 <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                    <ng-container *ngIf="i === 3">               
+                    <ng-container *ngIf="i === 0">               
                         <p class="fecha">
                             {{libro.fecha}}
                         </p>
@@ -73,7 +76,6 @@
                
             </div>
 
-            
             <div class="relatedTo col l10">
                 <h3 class="related-cover">Libros Relacionados</h3>
                 <div class="related1 col l3 ">
@@ -83,7 +85,7 @@
                     <a href="Libro-PJTTC"><img src="../../../assets/Covers/pjato3.jpg" class="related"></a>
                 </div>
                 <div class="related3 col l3 ">
-                    <a href="Libro-PJTLO"><img src="../../../assets/Covers/pjato5.jpg" class="related"></a>
+                    <a href="Libro-PJTBOTL"><img src="../../../assets/Covers/pjato4.jpg" class="related"></a>
                 </div>
             </div>
 
@@ -94,7 +96,7 @@
                 </div>
                <div class="nombre-libros col l10 ">
                 <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                    <ng-container *ngIf="i === 3">               
+                    <ng-container *ngIf="i === 0">               
                         <p class="nombre-autor">
                             {{libro.autor}}
                             </p>
@@ -104,7 +106,7 @@
                </div>
                <div class="bio col l12 ">
                 <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                    <ng-container *ngIf="i === 3">               
+                    <ng-container *ngIf="i === 0">               
                         <p class="autor-descripcion">
                             {{libro.autor_descripcion}}
                             </p>
@@ -122,7 +124,7 @@
                     <div class="foto-reseña col l2 ">
                         <img src="../../../assets/Resources/pp.jpg" id="pp">
                         <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                            <ng-container *ngIf="i === 3">               
+                            <ng-container *ngIf="i === 0">               
                                 <p class="nombre-reseña">
                                     {{libro.resena1_nom}}
                                 </p>
@@ -135,7 +137,7 @@
                     </div>
                     <div class="info-reseña col l9 push-l1">
                         <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                            <ng-container *ngIf="i === 3">               
+                            <ng-container *ngIf="i === 0">               
                                 <p class="reseña-rating">
                                     {{libro.resena1_rating}} estrellas
                                 </p>
@@ -158,9 +160,9 @@
                 <div class="reseña_2 col l12">
                     <hr>
                     <div class="foto-reseña col l2 ">
-                        <img src="../../../assets/Resources/jason.jpg" id="pp">
+                        <img src="../../../assets/Resources/pinguino.jpg" id="pp">
                         <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                            <ng-container *ngIf="i === 3">               
+                            <ng-container *ngIf="i === 0">               
                                 <p class="nombre-reseña">
                                     {{libro.resena2_nom}}
                                 </p>
@@ -173,7 +175,7 @@
                     </div>
                    <div class="info-reseña col l9 push-l1 ">
                     <ng-container *ngFor="let libro of libroService.libros; let i = index;">
-                        <ng-container *ngIf="i === 3">               
+                        <ng-container *ngIf="i === 0">               
                             <p class="reseña-rating">
                                 {{libro.resena2_rating}} estrellas
                             </p>
