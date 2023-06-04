@@ -2,6 +2,11 @@
     background-color: #eaeaea;
 }
 
+#nav-mobile {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: bolder;
+}
 
 .dicord{
     position: fixed;
@@ -93,8 +98,30 @@
     cursor: pointer;
     position: relative;
     transition: border-radius 128ms, background 128ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squircle a {
+	background: #A6AE8C;;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: border-radius 128ms, background 128ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .squircle:hover{
+    border-radius: 36%;
+    background: white;
+
+}
+
+.squircle a:hover{
     border-radius: 36%;
     background: white;
 
@@ -154,6 +181,18 @@
 
 .poptext{
     color: white;
+}
+
+.imagenes-dicord {
+    width: inherit;
+    border-radius: inherit;
+
+}
+
+.icons-dicord {
+    width: 50%;
+    border-radius: inherit;
+
 }
 
 

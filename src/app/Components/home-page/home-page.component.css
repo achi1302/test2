@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .background {
+        background-color: #eaeaee;
+  }
+  .container-feed {
+    width: 700px;
+    height: 827px;
+    opacity: 1;
+    position: absolute;
+    top: 172px;
+    left: 162px;
+  
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    align-items: center;
+    text-align: left;
+    color: #000000;
+    
+  }
+  .page-navigation {
+    width: 450px;
+    height: 180px;
+    background: #868C72;
+    opacity: 1;
+    position: relative;
+    top: 172px;
+    left: 950px;
+    overflow: hidden;
+    border-radius: 20px;
+  
+    font-family: 'Bellota';
+    font-style: bold;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    color: white;
+  }
+  
+  .feed-item {
+    width: 700px;
+    height: 222px;
+  
+    opacity: 1;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    border-bottom: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+  
+    font-family: 'Bellota';
+    font-style: bold;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .profile-circle{
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    left: 600px;
+  }
+  
+  .profile-name{
+    position: relative;
+    right: 106px;
+    top: -136px;
+    text-align: right;
+  }
+  
+  .go-to-group{
+    position: relative;
+    text-align: right;
+    text-decoration: underline;
+    right: 20px;
+    top:-96px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .promo-image{
+    background-size: cover;
+    height: 160px;
+    width: 260px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: -40px;
+    scale: 95%;
+  }

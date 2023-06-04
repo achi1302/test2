@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .background-color {
+    background-color: #eaeaea;
+  }
+  .book-image {
+    width: 240px;
+    height: 360px;
+    background: url("../../../assets/Resources/mainbookcover.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 180px;
+    left: 193px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .book-bg {
+    width: 258px;
+    height: 377px;
+    background: rgba(134,140,114,0.3);
+    opacity: 1;
+    position: relative;
+    top: -190px;
+    left: 184px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .book-title {
+    width: 485px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 192px;
+    left: 485px;
+    font-family: Bellota;
+    font-weight: Bold;
+    font-size: 40px;
+    opacity: 1;
+    text-align: right;
+  }
+  .progress-bar {
+    width: 360px;
+    height: 82px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 474px;
+    left: 533px;
+    overflow: hidden;
+  }
+  .progress-bar-load {
+    width: 360px;
+    height: 32px;
+    background: url("../../../assets/Resources/pbarvector.png");
+    opacity: 1;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+  }
+  .progress-bar-title {
+    width: 258px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-family: Bellota;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+  .book-description {
+    width: 485px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 267px;
+    left: 485px;
+    font-family: Bellota;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .green-bubble {
+    width: 266px;
+    height: 44px;
+    background: rgba(63,89,65,1);
+    opacity: 1;
+    position: absolute;
+    top: 649px;
+    left: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .green-bubble-text {
+    width: 315px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 654px;
+    left: 162px;
+    font-family: Bellota;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .leave-button {
+    width: 315px;
+    height: 44px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 647px;
+    left: 564px;
+    overflow: hidden;
+  }
+  .leave-button-bubble {
+    width: 266px;
+    height: 44px;
+    background: rgba(134,140,114,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .leave-button-text {
+    width: 315px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    font-family: Bellota;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .titulos-similares {
+    width: 446px;
+    height: 60px;
+    background: url("../../../assets/Resources/similares.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 770px;
+    left: 323px;
+    scale: 80%;
+  }
+  .recommended-1 {
+    width: 123px;
+    height: 185px;
+    background: url("../../../assets/Resources/bcover1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 848px;
+    left: 162px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .recommended-2 {
+    width: 121px;
+    height: 189px;
+    background: url("../../../assets/Resources/bcover2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 848px;
+    left: 323px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .recommended-3 {
+    width: 125px;
+    height: 189px;
+    background: url("../../../assets/Resources/bcover3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 848px;
+    left: 485px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .recommended-4 {
+    width: 125px;
+    height: 189px;
+    background: url("../../../assets/Resources/bcover4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 848px;
+    left: 647px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .recommended-5 {
+    width: 120px;
+    height: 184px;
+    background: url("../../../assets/Resources/bcover5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 853px;
+    left: 810px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .group-name {
+    width: 700px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 192px;
+    left: 900px;
+    font-family: Bellota;
+    font-weight: Bold;
+    font-size: 40px;
+    opacity: 1;
+    text-align: right;
+  }
+  .posts-recientes {
+    width: 700px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 248px;
+    left: 900px;
+    font-family: Bellota;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: right;
+  }
+  .post {
+    width: 550px;
+    height: 240px;
+    position: absolute;
+    top:300px;
+    right: 80px;
+    font-family: Bellota;
+    font-weight: Bold;
+    font-size: 25px;
+    text-align: left;
+    line-height: 100%;
+  }
+  .profile-circle{
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -233px;
+    left: 468px
+  }
+  .follow-button{
+    
+    background: url("../../../assets/Resources/follow-button.png");
+    background-size: cover;
+    position: relative;
+    height: 60px;
+    width: 160px;
+    scale:50%;
+    left: 428px;
+    top:-276px;
+  
+    
+  }
+
+  .titulos{
+    height: 300px;
+    background-color: #eaeaea;
+  }
+
+

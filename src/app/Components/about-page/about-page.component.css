@@ -1,0 +1,34 @@
+
+.row{
+    background-color: #eaeaea;
+}
+h4 {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: bolder;
+
+}
+h1 {
+
+    
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: bolder;
+
+}
+p{
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.carousel {
+    background-color: #eaeaea;
+    height: 500px;
+}
+
+.test{
+    border-width: 1px;
+    border-style: solid;
+    border-color:blue;
+}

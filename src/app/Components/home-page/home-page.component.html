@@ -1,1 +1,122 @@
-<h1>home page is working!</h1>
+<link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet" />
+
+<div class="background">
+    <div class="container-feed">
+        Actividad de tus grupos:
+
+        <div class="feed-item">
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="margin-bottom: 0%; left: 10px; position: relative;">{{grupos.miembro1group}}</p>
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-style: bold; font-weight: 700; margin-top:0 ; margin-bottom: 0%; left: 10px; position: relative;">{{grupos.miembro1lib}}</p>
+                    </ng-container>
+            </ng-container>
+            <div class="profile-circle" style="background-image: url('../../../assets/Resources/capybara.jpg');"></div>
+           
+           
+            <div class="profile-name"> 
+                <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    {{grupos.miembro1nom}}
+                    </ng-container>
+            </ng-container>
+        </div>
+           <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+            <ng-container *ngIf="i === 0">               
+                <p style="position: relative; top: -100px; font-size: 16px; width: 90%; text-align: left; left: 10px; margin-bottom: 0;">
+                  {{grupos.miembro1post}}
+                </p>
+                </ng-container>
+        </ng-container>
+         
+            <a href="Group"><div class="go-to-group">Ir al grupo></div></a>
+        </div>
+
+        <div class="feed-item" style="top:40px">
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="margin-bottom: 0%; left: 10px; position: relative;">{{grupos.miembro2group}}</p>
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-style: bold; font-weight: 700; margin-top:0 ; margin-bottom: 0%; left: 10px; position: relative;">{{grupos.miembro2lib}}</p>
+                    </ng-container>
+            </ng-container>
+            <div class="profile-circle" style="background-image: url('../../../assets/Resources/penguin.png');"></div>
+           <div class="profile-name"> <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+            <ng-container *ngIf="i === 0">               
+                {{grupos.miembro2nom}}
+                </ng-container>
+        </ng-container></div>
+           <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+            <ng-container *ngIf="i === 0">               
+                <p style="position: relative; top: -100px; font-size: 16px; width: 90%; text-align: left; left: 10px; margin-bottom: 0;">
+                  {{grupos.miembro2post}}
+                </p>
+                </ng-container>
+        </ng-container>
+         
+        <a href="Group"><div class="go-to-group">Ir al grupo></div></a>
+        </div>
+
+    
+        <div class="feed-item" style="top:65px">
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="margin-bottom: 0%; left: 10px; position: relative;">{{grupos.miembro3group}}</p>
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-style: bold; font-weight: 700; margin-top:0 ; margin-bottom: 0%; left: 10px; position: relative;">{{grupos.miembro3lib}}</p>
+                    </ng-container>
+            </ng-container>
+            <div class="profile-circle" style="background-image: url('../../../assets/Resources/nutrias-tienen-piedra-favorita.jpg');"></div>
+           <div class="profile-name"> <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+            <ng-container *ngIf="i === 0">               
+                {{grupos.miembro3nom}}
+                </ng-container>
+        </ng-container>
+    </div>
+           <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+            <ng-container *ngIf="i === 0">               
+                <p style="position: relative; top: -100px; font-size: 16px; width: 90%; text-align: left; left: 10px; margin-bottom: 0;">
+                  {{grupos.miembro3post}}
+                </p>
+                </ng-container>
+        </ng-container>
+         
+        <a href="Group"><div class="go-to-group">Ir al grupo></div></a>
+        </div>
+        
+    </div>
+
+    <div class="page-navigation">
+        <a href="Libros"><p style="text-align: center; color: #fff;">Descubre libros nuevos para ti</p></a>
+        <a href="Libros"><div class="promo-image" style="background-image: url('../../../assets/Resources/booksmany.png'); left:95px;"></div></a>
+    </div>
+
+    <div class="page-navigation" style="top: 202px">
+        <p style="text-align: center;">Escribe una reseña</p>
+        <div class="promo-image" style="background-image: url('../../../assets/Resources/bookquill-1.png');
+        height:180 px; width:200px; scale:55%; left:140px;
+        "></div>
+    </div>
+
+    <div class="page-navigation" style="top: 232px">
+        <a href="About"><p style="text-align: center; color: #fff;">Descubre más sobre nosotros.</p></a>
+        <a href="About"><div class="promo-image" style="background-image: url('../../../assets/Resources/main-logo.png');
+        height:180 px; width:300px; scale:55%; left:80px;
+        ;"></div></a>
+    </div>
+
+    <div class="margen" style="height: 400px;">
+
+    </div>
+
+</div>

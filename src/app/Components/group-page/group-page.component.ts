@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import {GruposService} from '../../Services/grupos.service'
 
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.css']
+  selector: 'app-group-page',
+  templateUrl: './group-page.component.html',
+  styleUrls: ['./group-page.component.css']
 })
-export class HomePageComponent implements OnInit {
+export class GroupPageComponent implements OnInit {
   constructor(public gruposService: GruposService) {}
 
   ngOnInit(): void{
@@ -26,3 +26,4 @@ export class HomePageComponent implements OnInit {
       )
     }
   }
+

@@ -1,0 +1,123 @@
+
+    <link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet" />
+
+
+<div class="row">
+  <div class="background-color">
+        <div class="book-image"></div>
+        <div class="book-bg"></div>
+    </div>
+
+
+        <span class="book-title">Quiobole con...</span>
+
+        <div class="progress-bar">
+            <div class="progress-bar-load"></div>
+            <span class="progress-bar-title">Progreso</span>
+        </div>
+
+        <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+            <ng-container *ngIf="i === 0">               
+                <span class="book-description">
+                    {{grupos.descripcion}}
+                </span>
+                </ng-container>
+        </ng-container>
+
+    
+
+        <div class="compose-button">
+            <div class="green-bubble"></div>
+            <span class="green-bubble-text">Escribe un articulo</span>
+        </div>
+        
+        <div class="leave-button">
+            <div class="leave-button-bubble"></div>
+            <span class="leave-button-text">Abandonar Grupo</span>
+        </div>
+
+        <div class="titulos "> 
+            <div class="titulos-similares"></div>
+            <div class="recommended-1"></div>
+            <div class="recommended-2"></div>
+            <div class="recommended-3"></div>
+            <div class="recommended-4"></div>
+            <div class="recommended-5"></div>
+        </div>
+       
+
+        <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+            <ng-container *ngIf="i === 0">               
+                <span class="group-name">{{grupos.nombre}}</span>
+                </ng-container>
+        </ng-container>
+        <div class="posts-recientes">Posts Recientes:</div>
+
+        <div class="post" style="top:300px">
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    {{grupos.miembro1tit}}
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-weight: bold; font-size: 18px;">{{grupos.miembro1nom}}</p>
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-size: 20px; font-weight:100">{{grupos.miembro1post}}</p>
+                    </ng-container>
+            </ng-container>
+            <div class="profile-circle" style="background-image: url('../../../assets/Resources/capybara.jpg');"></div>
+            <div class="follow-button"></div>
+            <hr style="position: relative; top: -160px; border-top: 2px solid black;">
+        </div>
+
+        
+
+        <div class="post" style="top:600px">
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    {{grupos.miembro2tit}}
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-weight: bold; font-size: 18px;">{{grupos.miembro2nom}}</p>
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-size: 20px; font-weight:100">{{grupos.miembro2post}}</p>
+                    </ng-container>
+            </ng-container>
+            <div class="profile-circle" style="background-image: url('../../../assets/Resources/penguin.png');"></div>
+            <div class="follow-button"></div>
+            <hr style="position: relative; top: -160px; border-top: 2px solid black;">
+        </div>
+
+        <div class="post" style="top:850px">
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    {{grupos.miembro3tit}}
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-weight: bold; font-size: 18px;">{{grupos.miembro3nom}}</p>
+                    </ng-container>
+            </ng-container>
+            <ng-container *ngFor="let grupos of gruposService.grupos; let i = index;">
+                <ng-container *ngIf="i === 0">               
+                    <p style="font-size: 20px; font-weight:100">{{grupos.miembro3post}}</p>
+                    </ng-container>
+            </ng-container>
+            <div class="profile-circle" style="background-image: url('../../../assets/Resources/penguin.png');"></div>
+            <div class="follow-button"></div>
+            <hr style="position: relative; top: -160px; border-top: 2px solid black;">
+        </div>
+
+
+    </div>
+   

@@ -16,6 +16,9 @@ import { PjtltComponent } from './Components/pjtlt/pjtlt.component';
 import { PjttcComponent } from './Components/pjttc/pjttc.component';
 import { PjtsomComponent } from './Components/pjtsom/pjtsom.component';
 import { PjtloComponent } from './Components/pjtlo/pjtlo.component';
+import { LoginPageComponent } from './Components/login-page/login-page.component';
+import { AboutPageComponent } from './Components/about-page/about-page.component';
+import { GroupPageComponent } from './Components/group-page/group-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { PjtloComponent } from './Components/pjtlo/pjtlo.component';
     PjtltComponent,
     PjttcComponent,
     PjtsomComponent,
-    PjtloComponent
+    PjtloComponent,
+    LoginPageComponent,
+    AboutPageComponent,
+    GroupPageComponent
   ],
   imports: [
     BrowserModule,

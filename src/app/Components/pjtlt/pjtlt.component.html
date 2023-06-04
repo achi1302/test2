@@ -1,3 +1,6 @@
+
+<link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet" />
+
 <div class="row">
     <div class="columna-izq col l3 push-l1  ">
         <div class="Sticky " style="position:sticky; top: 100px;">
@@ -12,7 +15,7 @@
                 <a class="btn col l5 push-l2 " id="botones">
                     Comprar</a>
             </div>
-            <div class="rate col l5 push-l3  ">
+            <div class="rate ">
                 <input type="radio" id="star5" name="rate" value="5" />
                 <label for="star5" title="text">5 stars</label>
                 <input type="radio" id="star4" name="rate" value="4" />
@@ -131,7 +134,8 @@
                                 <p class="num-reseña">
                                     {{libro.resena1_num}} reseñas
                                 </p>
-                                <p>SeguirBoton</p>
+                                <a class="btn col l5 push-l2 " id="botonesrese">
+                                    SEGUIR</a>
                                 </ng-container>
                         </ng-container>
                     </div>
@@ -141,7 +145,7 @@
                                 <p class="reseña-rating">
                                     {{libro.resena1_rating}} estrellas
                                 </p>
-                                <p class="reseña_descripcion">
+                                <p class="reseña_descripcion ">
                                     {{libro.resena1}}
                                 </p>
                                 </ng-container>
@@ -169,7 +173,8 @@
                                 <p class="num-reseña">
                                     {{libro.resena2_num}} reseñas
                                 </p>
-                                <p>SeguirBoton</p>
+                                <a class="btn col l5 push-l2 " id="botonesrese">
+                                    SEGUIR</a>
                                 </ng-container>
                         </ng-container>
                     </div>
@@ -179,12 +184,12 @@
                             <p class="reseña-rating">
                                 {{libro.resena2_rating}} estrellas
                             </p>
-                            <p class="reseña_descripcion">
+                            <p class="reseña_descripcion ">
                                 {{libro.resena2}}
                             </p>
                             </ng-container>
                     </ng-container>
-                        <div class="iconos col l12 ">
+                        <div class="iconos col l12  ">
                             <div class="like col l3">  
                                 <a href="#"><i class="material-icons left">thumb_up</i>Me gusta</a>
                             </div>
